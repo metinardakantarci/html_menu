@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaptanın Yeri | Menü</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<style>
+    body{
+        background-color: #cbf8fa;
+    }
+    @media (max-width: 767px) {
+        .corba-image img,
+        .soguk-icecek-image img,
+        .sicak-icecek-image img,
+        .izgara-balik-image img,
+        .tavada-balik-image img,
+        .ekmekarasi-balik-image img,
+        .meze-image img,
+        .tatli-image img,
+        .salata-image img{
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .corba,
+        .soguk-icecek,
+        .sicak-icecek,
+        .izgara-balik,
+        .tavada-balik,
+        .ekmekarasi-balik,
+        .meze,
+        .tatli,
+        .salata{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col-6 {
+            text-align: center;
+        }
+    }
+</style>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <img src="img/favicon.png" alt="Logo" width="30" height="30" class="d-inline-block">
+          <a class="navbar-brand mx-2" style="font-family: 'Merienda';" href="#">Kaptanın Yeri</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#corbalar">Çorbalar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ekmekarasi-baliklar">Ekmek Arası Balıklar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mezeler">Mezeler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#salatalar">Salatalar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tatlilar">Tatlılar</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  İçecekler
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#soguk-icecekler">Soğuk İçecekler</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#sicak-icecekler">Sıcak İçecekler</a></li>
+                </ul>
+
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Balıklar
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#izgara-baliklar">Izgara Balıklar</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#tavada-baliklar">Tavada Balıklar</a></li>
+                </ul>
+
+              </li>
+            </ul>
+            <form class="d-flex">
+              
+              <button class="btn btn-outline-success" type="submit"><i style="padding-right: 5px;" class="fas fa-phone"></i> <strong>Bize Ulaşın!</strong></button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div class="head">
+        <img style="width: 100%;" class="mt-5" src="img/logo.png" alt="">
+    </div>
+
+    <div class="container-fluid"> 
+     
+        <section id="corbalar">
+            <div style="background-color:#59CBF4;" class="corba row text-dark">
+                <div class="col-7" style="text-align: center;">
+                    <img style="width: 100%; border-radius: 10%; max-width: 500px; margin-top: 20px; margin-bottom: 30px;" src="img/Çorbalar/balik_corbasi.png" alt="">
+                </div>
+                <div class="col-5 col-sm-5">
+                    <h1 class="mt-4 mb-4" style="font-family: 'Merienda'">Çorbalar (Soup)</h1>       
+                    <u style="text-decoration: none; font-weight: bold; font-size: large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        <li>
+                            Balık Çorbası (ekmek ile servis edilir). = 79Tl
+                        </li>
+                        <li>
+                            Karalahana Çorbası (ekmek ile servis edilir). = 50Tl
+                        </li>
+                        <li>
+                            Mercimek Çorbası (ekmek ile servis edilir). = 25Tl
+                        </li>
+                        <li>
+                            Pırasa Çorbası (ekmek ile servis edilir). = 25Tl
+                        </li><br>
+                    </u>
+                </div>
+            </div>
+        </section>
+
+        <section id="izgara-baliklar">
+            <div style="background-color:#29B5E7;" class="izgara-balik row text-dark">
+                <div class="col-7" style="text-align: center;">
+                    <img style="width: 100%; border-radius: 10%; max-width: 500px; margin-top: 20px; margin-bottom: 30px;" src="img/Balık/izgaraBalik.jpg" alt="">
+                </div>
+                <div class="col-5 col-sm-5">
+                    <h1 class="mt-4 mb-4" style="font-family: 'Merienda'">Izgara Balıklar (Grilled Fish)</h1>       
+                    <u style="text-decoration: none; font-weight: bold; font-size: large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        <li>
+                            Izgara Hamsi (300-500gr.) = 120Tl <span style="color : rgb(255, 0, 0)"><del>150Tl</del></span>
+                        </li>
+                        <li>
+                            Izgara Uskumru (300-500gr.) = 50Tl
+                        </li>
+                        <li>
+                            Izgara Sarıkanat (300-500gr.) = 160Tl
+                        </li>
+                        <li>
+                            Izgara Palamut (300-500gr.) = 160Tl
+                        </li>
+                        <li>
+                            Izgara Somon (300-500gr.) = 160Tl
+                        </li><br>
+                    </u>
+                </div>
+            </div>
+        </section>
+
+        <section id="tavada-baliklar">
+            <div style="background-color:#59CBF4;" class="tavada-balik row text-dark">
+                <div class="col-7" style="text-align: center;">
+                    <img style="width: 100%; border-radius: 10%; max-width: 500px; margin-top: 20px; margin-bottom: 30px;" src="img/Balık/tavadaBalik.png" alt="">
+                </div>
+                <div class="col-5 col-sm-5">
+                    <h1 class="mt-4 mb-4" style="font-family: 'Merienda'">Tavada Balıklar (Pan-Fried Fish)</h1>       
+                    <u style="text-decoration: none; font-weight: bold; font-size: large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        <li>
+                            Balık Kavurma (300-500gr.) = 160Tl <span style="color : rgb(255, 0, 0)"><del>200Tl</del></span>
+                        </li>
+                        <li>
+                            İstavrit Tava (300-500gr.) = 120Tl
+                        </li>
+                        <li>
+                            Tekir Tava (300-500gr.) = 160Tl
+                        </li>
+                        <li>
+                            Hamsi Tava (300-500gr.) = 120Tl
+                        </li>
+                        <li>
+                            Mezgit Tava (300-500gr.) = 160Tl
+                        </li><br>
+                    </u>
+                </div>
+            </div>
+        </section>
+
+        <section id="ekmekarasi-baliklar">
+            <div style="background-color:#29B5E7;" class="ekmekarasi-balik row text-dark">
+                <div class="col-7" style="text-align: center;">
+                    <img style="width: 100%; border-radius: 10%; max-width: 500px; margin-top: 20px; margin-bottom: 30px;" src="img/Balık/ekmekArasi.png" alt="">
+                </div>
+                <div class="col-5 col-sm-5">
+                    <h1 class="mt-4 mb-4" style="font-family: 'Merienda'">Ekmek Arası Balık (Fish in bread)</h1>       
+                    <u style="text-decoration: none; font-weight: bold; font-size: large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        <li>
+                            Ekmek Arası Hamsi = 80Tl <span style="color : rgb(255, 0, 0)"><del>100Tl</del></span>
+                        </li>
+                        <li>
+                            Ekmek Arası Mezgit Fileto = 80Tl
+                        </li>
+                        <li>
+                            Ekmek Arası Uskumru = 80Tl
+                        </li><br>
+                    </u>
+                </div>
+            </div>
+        </section>
+
+        <section id="mezeler">
+            <div style="background-color:#59CBF4;" class="meze row text-dark">
+                <div class="col-7" style="text-align: center;">
+                    <img style="width: 100%; border-radius: 10%; max-width: 500px; margin-top: 20px; margin-bottom: 30px;" src="img/Mezeler/mezeler.png" alt="">
+                </div>
+                <div class="col-5 col-sm-5">
+                    <h1 class="mt-4 mb-4" style="font-family: 'Merienda'">Mezeler</h1>       
+                    <u style="text-decoration: none; font-weight: bold; font-size: large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        <li>
+                            Acılı Ezme = 48Tl
+                        </li>
+                        <li>
+                            Deniz Börülcesi = 48Tl
+                        </li>
+                        <li>
+                            Şakşuka = 48Tl
+                        </li>
+                        <li>
+                            Humus = 48Tl
+                        </li>
+                        <li>
+                            Tarator = 48Tl
+                        </li><br>
+                    </u>
+                </div>
+            </div>
+        </section>
+
+        <section id="salatalar">
+            <div style="background-color:#29B5E7;" class="salata row text-dark">
+                <div class="col-7" style="text-align: center;">
+                    <img style="width: 100%; border-radius: 10%; max-width: 500px; margin-top: 20px; margin-bottom: 30px;" src="img/Salatalar/salata.png" alt="">
+                </div>
+                <div class="col-5 col-sm-5">
+                    <h1 class="mt-4 mb-4" style="font-family: 'Merienda'">Salata (Salad)</h1>       
+                    <u style="text-decoration: none; font-weight: bold; font-size: large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        <li>
+                            Çoban Salata = 60Tl
+                        </li>
+                        <li>
+                            Mevsim Salata = 60Tl
+                        </li>
+                        <li>
+                            Soğan Salatası = 60Tl
+                        </li><br>
+                    </u>
+                </div>
+            </div>
+        </section>
+
+        <section id="tatlilar">
+            <div style="background-color:#59CBF4;" class="tatli row text-dark">
+                <div class="col-7" style="text-align: center;">
+                    <img style="width: 100%; border-radius: 10%; max-width: 500px; margin-top: 20px; margin-bottom: 30px;" src="img/Tatlılar/kunefe.png" alt="">
+                </div>
+                <div class="col-5 col-sm-5">
+                    <h1 class="mt-4 mb-4" style="font-family: 'Merienda'">Tatlılar (Desert)</h1>       
+                    <u style="font-weight: bold; font-size: large; text-decoration: none; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        <li>
+                            Künefe = 45Tl
+                        </li>
+                        <li>
+                            Baklava (Porsiyon) = 35Tl
+                        </li>
+                        <li>
+                            Tulumba (Porsiyon) = 35Tl
+                        </li>
+                        <li>
+                            Dondurma (Kase) = 35Tl
+                        </li><br>
+                    </u>
+                </div>
+            </div>
+        </section>
+
+        <section id="sicak-icecekler">
+            <div style="background-color:#29B5E7;" class="sicak-icecek row text-dark">
+                <div class="col-7" style="text-align: center;">
+                    <img style="width: 100%; border-radius: 10%; max-width: 500px; margin-top: 20px; margin-bottom: 30px;" src="img/Sıcak İçecekler/cay.jpg" alt="">
+                </div>
+                <div class="col-5 col-sm-5">
+                    <h1 class="mt-4 mb-4" style="font-family: 'Merienda'">Sıcak İçecekler (Hot Drink)</h1>       
+                    <u style="font-weight: bold; font-size: large; text-decoration: none; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        <li>
+                            Çay = 6Tl
+                        </li>
+                        <li>
+                            Türk Kahvesi = 25Tl
+                        </li>
+                        <li>
+                            Damlasakızlı Türk Kahvesi = 35Tl
+                        </li>
+                        <li>
+                            Menengiç Kahve = 35Tl
+                        </li><br>
+                    </u>
+                </div>
+            </div>
+        </section>
+
+        <section id="soguk-icecekler">
+            <div style="background-color:#59CBF4;" class="corba row text-dark">
+                <div class="col-7" style="text-align: center;">
+                    <img style="width: 100%; border-radius: 10%; max-width: 500px; margin-top: 20px; margin-bottom: 30px;" src="img/Soğuk İçecekler/sogukIcecekler.png" alt="">
+                </div>
+                <div class="col-5 col-sm-5">
+                    <h1 class="mt-4 mb-4" style="font-family: 'Merienda'">Soğuk İçecekler (Cold Drink)</h1>       
+                    <u style="font-weight: bold; font-size: large; text-decoration: none; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                        <li>
+                            Sıkma Portakal Suyu = 25Tl
+                        </li>
+                        <li>
+                            Limonata = 20Tl
+                        </li>
+                        <li>
+                            Kola = 25Tl
+                        </li>
+                        <li>
+                            Ayran = 15Tl
+                        </li>
+                        <li>
+                            Su = 5Tl
+                        </li>
+                        <li>
+                            Fanta = 25Tl
+                        </li><br>
+                    </u>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer style="background-color: #0082ca;" class=" text-center text-white">
+    
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #01486e;"
+              href="https://tr.linkedin.com/in/metin-arda-kantarc%C4%B1-59118a26b"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="https://github.com/metinardakantarci"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" style="width: 50%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.081309925891!2d28.969793675580814!3d41.02347701848952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9e89b09a1fb%3A0xa27f98236c294816!2sKaptan&#39;in%20Yeri!5e0!3m2!1str!2str!4v1690204269624!5m2!1str!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>        
+
+        <div class="text-center p-3 mt-4" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <p>Bu site Metin Arda Kantarcı tarafından hazırlanmıştır! </p>
+          <p>İş ve teklifler için : metinardakantarci19@gmail.com </p>
+          <p>İsmi kullanılan kurul, kuruluş veya dükkan sahibi ile herhangi bir anlaşma bulunmamaktadır!</p>
+        </div>
+  
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html> 
